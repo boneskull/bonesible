@@ -1,0 +1,6 @@
+---
+- name: Ensure Ghost is up-to-date
+  command: ghost update
+  args:
+    chdir: /var/www/ghost
+  become: ghost

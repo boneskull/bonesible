@@ -1,0 +1,5 @@
+---
+- hosts: ghost
+  remote_user: root
+  roles:
+    - ghost
